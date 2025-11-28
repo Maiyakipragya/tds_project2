@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+httpx
+playwright
+pandas
+openai
+python-multipart
+beautifulsoup4
+python-dotenv
+duckdb
+scikit-learn
