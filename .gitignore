@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+payload.json
+.env
+ms-playwright/
+node_modules/
+.DS_Store
+.vscode/
