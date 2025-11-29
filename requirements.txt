@@ -1,7 +1,11 @@
 fastapi
 uvicorn
 requests
+pydantic
 playwright
 pandas
 scikit-learn
 beautifulsoup4
+httpx
+pillow
+numpy
