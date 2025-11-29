@@ -26,9 +26,21 @@ The design matches the specification in the project documentation.
 
 ---
 
-## ✦ Running locally
+## ✦ Running locally (optional)
 
-### 1. Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate        # Windows: .\venv\Scripts\activate
+I used the following setup while developing and testing my agent:
+
+1. Create and activate a virtual environment:
+   python -m venv venv
+   source venv/bin/activate        # Windows: .\venv\Scripts\activate
+
+2. Install dependencies:
+   pip install -r requirements.txt
+   playwright install chromium
+
+3. (Optional) Set your LLM keys as environment variables:
+   export GROQ_API_KEY="..."
+   export OPENAI_API_KEY="..."
+
+This is only for development/debugging. The evaluation itself uses the deployed endpoint.
+
